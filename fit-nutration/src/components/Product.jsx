@@ -1,6 +1,7 @@
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import styled from "styled-components";
 import SearchIcon from "@mui/icons-material/Search";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 const Info = styled.div`
   opacity: 0;
   width: 100%;
@@ -75,7 +76,7 @@ const Product = ({ item }) => {
           <SearchIcon />
         </Icon>
         <Icon>
-          <AddShoppingCartIcon />
+          <FavoriteBorderIcon />
         </Icon>
       </Info>
     </Container>
