@@ -1,15 +1,15 @@
 import react, { Fragment } from 'react';
-
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (<Fragment> <header>
         <a href="#" class="logoo">Fit Nutration</a>
         <nav class="navbar">
             <ul>
-                <li><a href="#">home</a></li>
+                <li><Link to="/">Home</Link></li>
                 <li><a href="#">store +</a>
                     <ul>
-                    <li><a href="#">Shop</a></li>
+                    <li><Link to="/Products">Shop</Link></li>
                         <li><a href="#">Catogories+</a>
                             <ul>
                                 <li><a href="#">Protien</a></li>
@@ -18,16 +18,16 @@ function Navbar() {
                             </ul></li>
                         <li><a href="#">shop by brand+ </a>
                             <ul>
-                                <li><a href="#">Organic nation</a></li>
-                                <li><a href="#">Muscle add</a></li>
-                                <li><a href="#">Challnger Nutration</a></li>
+                                <li><Link to="/Products3">Organic Nation</Link></li>
+                                <li><Link to="/Products2">Muscle add</Link></li>
+                                <li><Link to="/Products1">Challnger Nutration</Link></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li><a href="<>">About Us </a></li>
                 
-                <li><a href="#"> login</a></li>
+                <li><Link to="/login">login</Link></li>
             </ul>
         </nav>
         <div class="header-actions"/>
