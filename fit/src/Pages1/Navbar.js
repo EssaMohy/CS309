@@ -1,9 +1,14 @@
+import { InputLabel } from '@mui/material';
 import react, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (<Fragment> <header>
         <a href="#" class="logoo">Fit Nutration</a>
+<label> menu
+<input type="checkbox" id="menu-bar"/></label>
+
+
         <nav class="navbar">
             <ul>
                 <li><Link to="/">Home</Link></li>

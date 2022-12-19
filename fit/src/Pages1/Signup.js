@@ -1,5 +1,6 @@
 import react, { Fragment } from 'react';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom';
 
 function Signup() {
     return (<Fragment>
@@ -18,15 +19,12 @@ function Signup() {
         <input type="password" placeholder="" />
         <label>Confirm Password</label>
         <input type="password" placeholder="" />
-        <input type="button" value="Submit" />
+        <input type="button" class='btn' value="Submit" />
       <closeform></closeform></form>
-      <p>
-        By clicking the Sign Up button,you agree to our <br />
-        <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
-      </p>
+
     </div>
     <p class="para-2">
-      Already have an account? <a href="login.html">Login here</a>
+      Already have an account? <Link to="/login">login</Link>
     </p>
 
 

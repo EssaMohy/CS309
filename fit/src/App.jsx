@@ -8,11 +8,13 @@ import ProductsMuscleADD from './Products/ProductsMuscleADD';
 import ProductsORGA from './Products/ProductsORGA';
 import Login from './Pages1/Login';
 import Signup from './Pages1/Signup'
+import Checkout from "./components/checkout/Checkout";
 
 const App = () => {
-  // return <HomePage />;
+   //return <HomePage />;
  
     return (
+
       <div className='App'>
         <Router>
           <Routes>
@@ -23,6 +25,7 @@ const App = () => {
             <Route path='/Products3' element={<ProductsORGA/>} />
             <Route path='/login' element={<Login/>} />
             <Route path='/signup' element={<Signup/>} />
+            <Route path='/Cheackout' element={<Checkout></Checkout>} />
           </Routes>
         </Router>
   
