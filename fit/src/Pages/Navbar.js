@@ -83,7 +83,7 @@ function Navbar() {
         <button class="action-btn user" aria-label="User"></button>
 
         <IconButton aria-label="cart">
-          <StyledBadge badgeContent={4} color="secondary">
+          <StyledBadge badgeContent={4} color="Warning">
             <ShoppingCartOutlinedIcon sx={{ fontSize: 30 }} />
           </StyledBadge>
         </IconButton>

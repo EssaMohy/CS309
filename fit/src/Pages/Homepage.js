@@ -7,7 +7,6 @@ import Categories from "../components/Categories";
 function HomePage() {
   return (
     <Fragment>
-      w
       <header>
         <Navbar></Navbar>
       </header>
