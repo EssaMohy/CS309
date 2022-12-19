@@ -88,7 +88,7 @@ function HomePage() {
             <span>protected by paypal</span>
           </div>
         </div>
-        //<Link to="/Products2">Muscle add</Link>
+        
       </section>
       <Product></Product>{" "}
       <Link to="/Products" class="btno">
