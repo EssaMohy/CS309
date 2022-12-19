@@ -78,9 +78,13 @@ function Navbar() {
         </nav>
         <div class="header-actions" />
 
-        <button class="action-btn" aria-label="Search"></button>
-
-        <button class="action-btn user" aria-label="User"></button>
+        <div class="search-container">
+    <form action="">
+      <input type="text" placeholder="Search..." name="search"/>
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+      
 
         <IconButton aria-label="cart">
           <StyledBadge badgeContent={4} color="Warning">
