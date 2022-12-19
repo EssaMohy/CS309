@@ -1,60 +1,75 @@
-.signup-box {
-    width: 360px;
-    height: 620px;
-    margin: auto;
-    background-color: white;
-    border-radius: 3px;
-    padding-top: 110px;
-  }
-  
-  
-  h1 {
-    text-align: center;
-    padding-top: 15px;
-  }
-  
-  h4 {
-    text-align: center;
-  }
-  
- 
-  
-  form label {
+
+.container{
+	font-size: 1.25em;
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./components/n.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
     display: flex;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
-  form input {
+    align-items: center;
+}
+button{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+input {
     width: 100%;
-    padding: 7px;
-    border: none;
-    border: 1px solid gray;
-    border-radius: 6px;
-    outline: none;
-  }
-  input[type="button"] {
-    width: 320px;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    background-color: o;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid rgb(234, 228, 228);
+	outline:none;
+	background: transparent;
     color: white;
-    font-size: 18px;
-  }
-  p {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
-  }
-  .para-2 {
-    text-align: center;
-    color: rgb(53, 54, 55);
-    font-size: 15px;
-    margin-top: -10px;
-  }
-  .para-2 a {
-    color: #cd8302;
-  }
-  
-  
+}
+
+input:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+.text1{
+    color: #F3C693;
+}
+.cover2{
+    width:380px;
+	height:450px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.submit{
+	margin-top: 50px;
+}
+.newaccount{
+	margin-top: 20px;
+}
+.su{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.newacc{
+	margin-top: 10px;
+}
+.sighnup{
+	color: #F3C693;
+}
+.p{
+	color: antiquewhite;
+}
+.don{
+	color: azure;
+}
