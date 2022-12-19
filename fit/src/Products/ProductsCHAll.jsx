@@ -1,5 +1,5 @@
 import react, { Fragment } from 'react';
-import Navbar from '../Pages1/Navbar';
+import Navbar from '../Pages/Navbar';
 
 function ProductsCHAll() {
     return (<Fragment> <Navbar></Navbar>

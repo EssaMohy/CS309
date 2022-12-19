@@ -92,35 +92,61 @@ header label {
     display: none;
 }
 
+.cart {
+    cursor: pointer;
+}
+
+.cart span:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+}
+
+.cart span:nth-child(2) {
+    padding: 0 3px;
+    background-color: red;
+    color: white;
+    font-weight: bolx;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+}
+
 
 @media(max-width:991px) {
     header {
         padding: 20px;
     }
 
-    header label{
-        display: initial ; 
+    header label {
+        display: initial;
     }
 
-    header .navbar{
+    header .navbar {
         position: absolute;
-        top:100%;left:0;right:0;
+        top: 100%;
+        left: 0;
+        right: 0;
         background: #fff;
-        border-top:1px solid rgba(0, 0, 0, .1) ;
+        border-top: 1px solid rgba(0, 0, 0, .1);
         display: none;
     }
+
     header .navbar ul li {
         width: 100%;
     }
-    header .navbar ul li ul{
+
+    header .navbar ul li ul {
         position: relative;
         width: 100%;
     }
-    header .navbar ul li ul li{
+
+    header .navbar ul li ul li {
         background: #eee;
     }
-    header .navbar ul li ul li ul{
-    width: 100%;
-    left: 0;
+
+    header .navbar ul li ul li ul {
+        width: 100%;
+        left: 0;
     }
-}  
+
+}
