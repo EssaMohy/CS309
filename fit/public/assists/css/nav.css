@@ -112,7 +112,9 @@ header label {
 }
 .search-container form {
     position: relative;
+    border:solid orange;
 }
+
 .search-container form button {
     position: absolute;
     right: 0;
@@ -122,9 +124,9 @@ header label {
     background: transparent;
     border: transparent;
     font-size: 20px;
-    color: #ff9500;
+    color: #ff7b00;
     cursor: pointer;
-    outline: 0;
+    outline: 10;
 }
 
 

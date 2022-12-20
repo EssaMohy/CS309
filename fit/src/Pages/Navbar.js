@@ -76,8 +76,6 @@ function Navbar() {
             </li>
           </ul>
         </nav>
-        <div class="header-actions" />
-
         <div class="search-container">
     <form action="">
       <input type="text" placeholder="Search..." name="search"/>
