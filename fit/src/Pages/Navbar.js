@@ -5,6 +5,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -77,13 +78,25 @@ function Navbar() {
           </ul>
         </nav>
         <div class="search-container">
-    <form action="">
-      <input type="text" placeholder="Search..." name="search"/>
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-</div>
-
-
+          <form action="">
+            <input type="text" placeholder="Search..." name="search" />
+            <button type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div>
+          <IconButton aria-label="cart">
+            <StyledBadge badgeContent={4} color="warning">
+              <ShoppingCartOutlinedIcon sx={{ fontSize: 25 }} />
+            </StyledBadge>
+          </IconButton>
+        </div>
+        <div>
+          <IconButton aria-label="cart">
+            <AccountCircleIcon sx={{ fontSize: 25 }} />
+          </IconButton>
+        </div>
       </header>
     </Fragment>
   );
