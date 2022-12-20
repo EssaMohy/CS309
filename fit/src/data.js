@@ -6,7 +6,7 @@ export const categories = [
   },
   {
     id: 2,
-    img: "https://scontent.fcai21-4.fna.fbcdn.net/v/t39.30808-6/301700060_474853714647970_4930241802244013257_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rxnfqKsX5D8AX-lz30t&_nc_ht=scontent.fcai21-4.fna&oh=00_AfDl7t6TDH0V4AZGEsieHlDDC8cABscO_4Do6hi818U0WA&oe=639D725B",
+    img: "https://scontent.fcai21-4.fna.fbcdn.net/v/t39.30808-6/301700060_474853714647970_4930241802244013257_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEe4_DuCJb6t68E2VJN-I69fzazxK2S_k1_NrPErZL-TfqdId9rxhYway7VK9NjCJXtngHNOQXDnFPVrIfTKID8&_nc_ohc=xjcYq_2AXdsAX8g9Ein&_nc_ht=scontent.fcai21-4.fna&oh=00_AfBWDaORSfVJ-E4-avaLPnjBRA3qJkZJlTBm2O-L3XEMuQ&oe=63A55B5Bhttps://scontent.fcai21-4.fna.fbcdn.net/v/t39.30808-6/301700060_474853714647970_4930241802244013257_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rxnfqKsX5D8AX-lz30t&_nc_ht=scontent.fcai21-4.fna&oh=00_AfDl7t6TDH0V4AZGEsieHlDDC8cABscO_4Do6hi818U0WA&oe=639D725B",
     title: "MUSCLE ADD",
   },
   {

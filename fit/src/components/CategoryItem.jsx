@@ -29,15 +29,15 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
-  color: white;
+  color: var(--orange);
   margin-bottom: 20px;
 `;
 
 const Button = styled.button`
   border: none;
   padding: 10px;
-  background-color: white;
-  color: gray;
+  background-color: var(--orange);
+  color: white;
   cursor: pointer;
   font-weight: 600;
 `;
@@ -48,7 +48,9 @@ const CategoryItem = ({ item }) => {
       <Image src={item.img} />
       <Info>
         <Title>{item.title}</Title>
-        <Link to="/Products"><Button>SHOP NOW</Button></Link>
+        <Link to="/Products">
+          <Button>SHOP NOW</Button>
+        </Link>
       </Info>
     </Container>
   );
