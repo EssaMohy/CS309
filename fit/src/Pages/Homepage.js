@@ -87,7 +87,6 @@ function HomePage() {
             <span>protected by paypal</span>
           </div>
         </div>
-        
       </section>
       <Product></Product>{" "}
       <Link to="/Products" class="btno">

@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 import react, { Fragment } from "react";
 import Navbar from "../Pages/Navbar";
-=======
-import react, { Fragment } from 'react';
-import Navbar from '../Pages/Navbar';
->>>>>>> 4dca9ae145351790622975b37cbb48d16e890895
 
 function ProductsMuscleADD() {
   return (
