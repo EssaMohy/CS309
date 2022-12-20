@@ -1,5 +1,4 @@
-import { InputLabel } from "@mui/material";
-import react, { Fragment } from "react";
+import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import Badge from "@mui/material/Badge";
@@ -86,12 +85,13 @@ function Navbar() {
           </form>
         </div>
         <div>
-          <IconButton aria-label="cart">
-            <StyledBadge badgeContent={4} color="warning">
-              <ShoppingCartOutlinedIcon sx={{ fontSize: 25 }} />
-            </StyledBadge>
-          </IconButton>
-
+          <Link to="/Cart">
+            <IconButton aria-label="cart">
+              <StyledBadge badgeContent={4} color="warning">
+                <ShoppingCartOutlinedIcon sx={{ fontSize: 25 }} />
+              </StyledBadge>
+            </IconButton>
+          </Link>
           <IconButton aria-label="cart">
             <AccountCircleIcon sx={{ fontSize: 25 }} />
           </IconButton>
