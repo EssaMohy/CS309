@@ -3,7 +3,17 @@ import react, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import Badge from "@mui/material/Badge";
+import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
+
+const StyledBadge = styled(Badge)(({ theme }) => ({
+  "& .MuiBadge-badge": {
+    right: -3,
+    top: 13,
+    border: `2px solid ${theme.palette.background.paper}`,
+    padding: "0 4px",
+  },
+}));
 
 function Navbar() {
   return (
@@ -67,22 +77,13 @@ function Navbar() {
           </ul>
         </nav>
         <div class="search-container">
-          <form action="">
-            <input type="text" placeholder="Search..." name="search" />
-            <button type="submit">
-              <i class="fa fa-search"></i>
-            </button>
-          </form>
-        </div>
-        <div>
-          <Link to="/Cart">
-            <IconButton aria-label="cart">
-              <Badge badgeContent={4} color="warning">
-                <ShoppingCartOutlinedIcon sx={{ fontSize: 25 }} />
-              </Badge>
-            </IconButton>
-          </Link>
-        </div>
+    <form action="">
+      <input type="text" placeholder="Search..." name="search"/>
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+
+
       </header>
     </Fragment>
   );

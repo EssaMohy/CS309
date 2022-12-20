@@ -9,7 +9,6 @@ import ProductsORGA from "./Products/ProductsORGA";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import Checkout from "./components/checkout/Checkout";
-import Cart from "./Pages/Cart";
 
 const App = () => {
   //return <HomePage />;
@@ -26,7 +25,6 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/Cheackout" element={<Checkout></Checkout>} />
-          <Route path="/Cart" element={<Cart />} />
         </Routes>
       </Router>
     </div>
