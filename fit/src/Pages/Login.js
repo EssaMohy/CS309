@@ -5,18 +5,21 @@ import { Link } from 'react-router-dom';
 function Login() {
     return (<Fragment>
 <header><Navbar></Navbar></header>
-       <div className='cover'>
-    <form>
-      <h1 className='text1'>SignIn</h1>
-            <input type="text" placeholder="username" required/>
-            <input type="password" placeholder="password" required />
-            <div className='su'>
-            <button type='submit'>Login</button>
-            </div>
-            <div className='newacc'>
-            <p className='don'>don't have an account ?  <Link to='/signup'className='sighnup'>Sign Up</Link></p>
-            </div>
-            </form>
+<div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form">
+          <input type="text" placeholder="username"/>
+          <input type="password" placeholder="password"/>
+          <button>login</button>
+          <p class="message">Not registered? </p> <Link to='/signup'>Sign Up</Link>
+        </form>
+      </div>
     </div>
 
 
