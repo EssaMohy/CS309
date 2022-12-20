@@ -1,4 +1,4 @@
-import react, { Fragment } from "react";
+import { Fragment } from "react";
 import Navbar from "./Navbar";
 import Product from "../Products/Products";
 import { Link } from "react-router-dom";
