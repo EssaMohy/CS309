@@ -91,8 +91,7 @@ function Navbar() {
               <ShoppingCartOutlinedIcon sx={{ fontSize: 25 }} />
             </StyledBadge>
           </IconButton>
-        </div>
-        <div>
+
           <IconButton aria-label="cart">
             <AccountCircleIcon sx={{ fontSize: 25 }} />
           </IconButton>
