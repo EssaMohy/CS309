@@ -21,7 +21,7 @@ const Info = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 120%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,26 +29,33 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
-  color: white;
+  color: black;
   margin-bottom: 20px;
 `;
 
 const Button = styled.button`
-  border: none;
-  padding: 10px;
-  background-color: white;
-  color: gray;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: #333;
+  color: #fff;
+  padding: 0.9rem 3.5rem;
   cursor: pointer;
-  font-weight: 600;
+  font-size: 1.7rem;
+  &:hover {
+    background-color: var(--orange);
+  }
 `;
 
 const CategoryItem = ({ item }) => {
   return (
     <Container>
+      <Title>{item.title}</Title>
       <Image src={item.img} />
       <Info>
-        <Title>{item.title}</Title>
-        <Link to="/Products"><Button>SHOP NOW</Button></Link>
+        <Link to="/Products">
+          <Button>SHOP NOW</Button>
+        </Link>
       </Info>
     </Container>
   );
