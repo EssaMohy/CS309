@@ -1,85 +1,33 @@
-import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
-import styled from "styled-components";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-const Info = styled.div`
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.5s ease;
-  cursor: pointer;
-`;
-
-const Container = styled.div`
-  flex: 1;
-  margin: 5px;
-  min-width: 280px;
-  height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f5fbfd;
-  position: relative;
-
-  &:hover ${Info} {
-    opacity: 1;
-  }
-`;
-
-const Circle = styled.div`
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: white;
-  position: absolute;
-`;
-
-const Image = styled.img`
-  height: 75%;
-  z-index: 2;
-`;
-
-const Icon = styled.div`
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  transition: all 0.5s ease;
-  &:hover {
-    background-color: #e9f5f5;
-    transform: scale(1.1);
-  }
-`;
+import { Fragment } from "react";
 
 const Product = ({ item }) => {
   return (
-    <Container>
-      <Circle />
-      <Image src={item.img} />
-      <Info>
-        <Icon>
-          <AddShoppingCartIcon />
-        </Icon>
-        <Icon>
-          <SearchIcon />
-        </Icon>
-        <Icon>
-          <FavoriteBorderIcon />
-        </Icon>
-      </Info>
-    </Container>
+    <Fragment>
+      <section class="products" id="products">
+        <div class="box-container" />
+        <div class="box">
+          <span class="discount">{item.discount}</span>
+          <div class="image">
+            <img src={item.img} alt="" />
+            <div class="icons">
+              <FavoriteBorderIcon></FavoriteBorderIcon>
+              <a href="#" class="cart-btn">
+                add to cart
+              </a>
+              <SearchIcon></SearchIcon>
+            </div>
+          </div>
+          <div class="content">
+            <h3>{item.name}</h3>
+            <div class="price">
+              {item.price1} <span>{item.price2} </span>{" "}
+            </div>
+          </div>
+        </div>
+      </section>
+    </Fragment>
   );
 };
 

@@ -1,5 +1,7 @@
 import react, { Fragment } from "react";
 import Navbar from "../Pages/Navbar";
+import SearchIcon from "@mui/icons-material/Search";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
 function Product() {
   return (
@@ -18,7 +20,7 @@ function Product() {
             <div class="image">
               <img src={require("./images/protein/2.jpg")} alt="" />
               <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
+                <FavoriteBorderIcon></FavoriteBorderIcon>
                 <a href="#" class="cart-btn">
                   add to cart
                 </a>
@@ -38,7 +40,7 @@ function Product() {
             <div class="image">
               <img src={require("./images/protein/1.jpg")} alt="" />
               <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
+                <FavoriteBorderIcon></FavoriteBorderIcon>
                 <a href="#" class="cart-btn">
                   add to cart
                 </a>
@@ -58,7 +60,9 @@ function Product() {
             <div class="image">
               <img src={require("./images/protein/3.jpg")} alt="" />
               <div class="icons">
-                <a href="#" class="fas fa-heart"></a>
+                <a>
+                  <FavoriteBorderIcon></FavoriteBorderIcon>
+                </a>
                 <a href="#" class="cart-btn">
                   add to cart
                 </a>

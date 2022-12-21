@@ -18,37 +18,29 @@ export const categories = [
     cat: "Products1",
   },
 ];
-export const popularProducts = [
+export const featuredProducts = [
   {
     id: 1,
-    img: "",
+    img: "./Products/images/protein/2.jpg",
+    discount: "-10%",
+    name: "product",
+    price1: "LE 12.99",
+    price2: "LE 15.99",
   },
   {
     id: 2,
-    img: "",
+    img: "./Products/images/protein/2.jpg",
+    discount: "-10%",
+    name: "product",
+    price1: "LE 12.99",
+    price2: "LE 15.99",
   },
   {
     id: 3,
-    img: "",
-  },
-  {
-    id: 4,
-    img: "",
-  },
-  {
-    id: 5,
-    img: "",
-  },
-  {
-    id: 6,
-    img: "",
-  },
-  {
-    id: 7,
-    img: "",
-  },
-  {
-    id: 8,
-    img: "",
+    img: "./Products/images/protein/2.jpg",
+    discount: "-10%",
+    name: "product",
+    price1: "LE 12.99",
+    price2: "LE 15.99",
   },
 ];

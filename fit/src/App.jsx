@@ -12,7 +12,6 @@ import Checkout from "./components/checkout/Checkout";
 import Cart from "./Pages/Cart";
 
 const App = () => {
-  
   return (
     <div className="App">
       <Router>
