@@ -16,9 +16,9 @@ function HomePage() {
           <span> natural & Pure </span>
           <p>flash sale up to 40% today.</p>
           <Link to='/Products'>
-          <a href="#" class="btn">
-            shop now
-          </a></Link>
+            <a href="#" class="btn">
+              shop now
+            </a></Link>
         </div>
       </section>
       <section class="about" id="about">
@@ -29,7 +29,7 @@ function HomePage() {
 
         <div class="row">
           <div class="video-container">
-            <video src="images/about-vid.mp4" loop autoplay muted></video>
+            <img src="https://media.giphy.com/media/1VTIAWmFNhhwfWeCfN/giphy.gif" loop autoplay muted></img>
             <h3>best Suplemets sellers</h3>
           </div>
 
@@ -46,9 +46,6 @@ function HomePage() {
               Accusantium ea est commodi incidunt magni quia molestias
               perspiciatis, unde repudiandae quidem.
             </p>
-            <a href="#" class="btn">
-              learn more
-            </a>
           </div>
         </div>
       </section>
@@ -184,9 +181,9 @@ function HomePage() {
         <div class="box-container">
           <div class="box">
             <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">about</a>
-            <a href="#">Store</a>
+            <Link to="/">Home</Link>
+            <Link to="/Products">Store</Link>
+
           </div>
 
           <div class="box">
@@ -207,7 +204,7 @@ function HomePage() {
 
         <div class="credit">
           {" "}
-          created by <span> Ahmed essam </span> | all rights reserved{" "}
+          created by <span> Ahmed essam </span> {" "}
         </div>
       </section>
     </Fragment>

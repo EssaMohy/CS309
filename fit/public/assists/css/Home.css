@@ -181,7 +181,7 @@ header .fa-bars{
     position: absolute;
     top:50%; transform: translateY(-50%);
     font-size: 3rem;
-    background:#fff;
+    background:rgb(255, 98, 0);
     width:100%;
     padding:1rem 2rem;
     text-align: center;
