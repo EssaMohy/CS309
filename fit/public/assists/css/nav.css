@@ -110,9 +110,13 @@ header label {
     position: relative;
     top: -15px;
 }
+
+
+
 .search-container form {
     position: relative;
-    border:solid orange;
+    border: solid orange;
+    border-radius:0.8rem;
 }
 
 .search-container form button {
