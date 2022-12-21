@@ -33,7 +33,7 @@
     border-radius: 6px;
     outline: none;
   }
-  input[type="button"] {
+  input[type="buttons"] {
     width: 320px;
     height: 35px;
     margin-top: 20px;
@@ -49,12 +49,12 @@
   }
   .para-2 {
     text-align: center;
-    color: white;
+    color: black;
     font-size: 15px;
     margin-top: -10px;
   }
   .para-2 a {
-    color: #49c1a2;
+    color: #c19349;
   }
   
   

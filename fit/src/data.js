@@ -13,7 +13,7 @@ export const categories = [
   },
   {
     id: 3,
-    img: "https://scontent.fcai21-4.fna.fbcdn.net/v/t1.6435-9/46501508_1654430007996646_1850966102385885184_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=p_iBqnV3wnAAX9M_wyx&_nc_ht=scontent.fcai21-4.fna&oh=00_AfBI1jUHiIA8YegH-gPVYnFAdI94s2ddvBy744bn_9NumQ&oe=63C037D6",
+    img: "https://previews.123rf.com/images/andyadi/andyadi2006/andyadi200600096/148916360-spartan-helmet-warrior-inside-wheat-ear-vector-icon-logo-design-template-for-gym-tattoo-and-gaming-a.jpg",
     title: "CHALLENGER NUTRITION",
     cat: "Products1",
   },

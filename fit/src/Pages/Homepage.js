@@ -15,9 +15,10 @@ function HomePage() {
           <h3>High Quality Supplemets</h3>
           <span> natural & Pure </span>
           <p>flash sale up to 40% today.</p>
+          <Link to='/Products'>
           <a href="#" class="btn">
             shop now
-          </a>
+          </a></Link>
         </div>
       </section>
       <section class="about" id="about">
