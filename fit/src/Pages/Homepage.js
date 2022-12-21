@@ -52,7 +52,7 @@ function HomePage() {
       <section>
         <h1 class="heading">
           {" "}
-          <span> Categories </span>
+          <span> Popular  </span> brands{" "}
         </h1>
         <Categories />
       </section>
