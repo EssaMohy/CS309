@@ -58,28 +58,28 @@ function HomePage() {
       </section>
       <section class="icons-container">
         <div class="icons">
-          <img src="images/icon-1.png" alt="" />
+          <img src={require("./images/icon-1.png")} alt="" />
           <div class="info">
             <h3>free delivery</h3>
             <span>on all orders</span>
           </div>
         </div>
         <div class="icons">
-          <img src="images/icon-2.png" alt="" />
+          <img src={require("./images/icon-2.png")} alt="" />
           <div class="info">
             <h3>10 days returns</h3>
             <span>moneyback guarantee</span>
           </div>
         </div>
         <div class="icons">
-          <img src="images/icon-3.png" alt="" />
+          <img src={require("./images/icon-3.png")} alt="" />
           <div class="info">
             <h3>offer & gifts</h3>
             <span>on all orders</span>
           </div>
         </div>
         <div class="icons">
-          <img src="images/icon-4.png" alt="" />
+          <img src={require("./images/icon-4.png")} alt="" />
           <div class="info">
             <h3>secure paymens</h3>
             <span>protected by paypal</span>
@@ -90,83 +90,7 @@ function HomePage() {
       <Link to="/Products" class="btno">
         Show more Products
       </Link>
-      <section class="review" id="review">
-        <h1 class="heading">
-          {" "}
-          customer's <span>review</span>{" "}
-        </h1>
-
-        <div class="box-container">
-          <div class="box">
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              asperiores laboriosam praesentium enim maiores? Ad repellat
-              voluptates alias facere repudiandae dolor accusamus enim ut odit,
-              aliquam nesciunt eaque nulla dignissimos.
-            </p>
-            <div class="user">
-              <div class="user-info">
-                <h3>customer</h3>
-                <span>happy customer</span>
-              </div>
-            </div>
-            <span class="fas fa-quote-right"></span>
-          </div>
-
-          <div class="box">
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              asperiores laboriosam praesentium enim maiores? Ad repellat
-              voluptates alias facere repudiandae dolor accusamus enim ut odit,
-              aliquam nesciunt eaque nulla dignissimos.
-            </p>
-            <div class="user">
-              <div class="user-info">
-                <h3>customer</h3>
-                <span>happy customer</span>
-              </div>
-            </div>
-            <span class="fas fa-quote-right"></span>
-          </div>
-
-          <div class="box">
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              asperiores laboriosam praesentium enim maiores? Ad repellat
-              voluptates alias facere repudiandae dolor accusamus enim ut odit,
-              aliquam nesciunt eaque nulla dignissimos.
-            </p>
-            <div class="user">
-              <div class="user-info">
-                <h3>customer</h3>
-                <span>happy customer</span>
-              </div>
-            </div>
-            <span class="fas fa-quote-right"></span>
-          </div>
-        </div>
-      </section>
+  
       <section class="contact" id="contact">
         <h1 class="heading">
           {" "}
