@@ -93,9 +93,11 @@ function Navbar() {
               </StyledBadge>
             </IconButton>
           </Link>
-          <IconButton aria-label="cart">
-            <AccountCircleIcon sx={{ fontSize: 25 }} />
-          </IconButton>
+          <Link to="/Profile">
+            <IconButton aria-label="cart">
+              <AccountCircleIcon sx={{ fontSize: 25 }} />
+            </IconButton>
+          </Link>
         </div>
       </header>
     </Fragment>
