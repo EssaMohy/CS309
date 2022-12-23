@@ -21,7 +21,7 @@ export const categories = [
 export const featuredProducts = [
   {
     id: 1,
-    img: "./Products/images/protein/2.jpg",
+    img: "https://m.media-amazon.com/images/I/611JHvQKtML._SY450_.jpg",
     discount: "-10%",
     name: "product",
     price1: "LE 12.99",
@@ -29,7 +29,7 @@ export const featuredProducts = [
   },
   {
     id: 2,
-    img: "./Products/images/protein/2.jpg",
+    img: "https://m.media-amazon.com/images/I/611JHvQKtML._SY450_.jpg",
     discount: "-10%",
     name: "product",
     price1: "LE 12.99",
@@ -37,7 +37,7 @@ export const featuredProducts = [
   },
   {
     id: 3,
-    img: "./Products/images/protein/2.jpg",
+    img: "https://m.media-amazon.com/images/I/611JHvQKtML._SY450_.jpg",
     discount: "-10%",
     name: "product",
     price1: "LE 12.99",

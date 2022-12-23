@@ -1,5 +1,4 @@
 import React from "react";
-//import HomePage from "./Pages/HomePage";
 import HomePage from "./Pages/Homepage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Products from "./Products/Products";

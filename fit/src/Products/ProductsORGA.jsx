@@ -1,5 +1,6 @@
 import react, { Fragment } from "react";
-import Navbar from "../Pages/Navbar";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function ProductsORGA() {
   return (
@@ -158,6 +159,7 @@ function ProductsORGA() {
           </div>
         </div>
       </section>
+      <Footer />
     </Fragment>
   );
 }

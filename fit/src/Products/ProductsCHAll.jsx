@@ -1,5 +1,6 @@
 import react, { Fragment } from "react";
-import Navbar from "../Pages/Navbar";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function ProductsCHAll() {
   return (
@@ -158,6 +159,7 @@ function ProductsCHAll() {
           </div>
         </div>
       </section>
+      <Footer />
     </Fragment>
   );
 }

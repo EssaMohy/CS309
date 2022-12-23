@@ -15,7 +15,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import AddressForm from "./AddressForm";
 import PaymentForm from "./PaymentForm";
 import Review from "./Review";
-import Navbar from "../../Pages/Navbar";
+import Navbar from "../Navbar";
 
 function Copyright() {
   return (

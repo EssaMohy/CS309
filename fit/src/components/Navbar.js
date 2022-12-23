@@ -17,6 +17,8 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 }));
 
 function Navbar() {
+  const quantity = useSelector((state) => state.cart.quantity);
+  console.log(quantity);
   return (
     <Fragment>
       {" "}
@@ -85,7 +87,7 @@ function Navbar() {
         <div>
           <Link to="/Cart">
             <IconButton aria-label="cart">
-              <StyledBadge badgeContent={4} color="warning">
+              <StyledBadge badgeContent={quantity} color="warning">
                 <ShoppingCartOutlinedIcon sx={{ fontSize: 25 }} />
               </StyledBadge>
             </IconButton>
