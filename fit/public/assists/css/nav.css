@@ -135,12 +135,14 @@ header label {
 
 
 @media(max-width:991px) {
+
     header {
         padding: 20px;
+        
     }
 
-    header label {
-        display: initial;
+    header .fa-bars{
+        display: block;
     }
 
     header .navbar {
@@ -151,24 +153,14 @@ header label {
         background: #fff;
         border-top: 1px solid rgba(0, 0, 0, .1);
         display: none;
+        
+        
     }
 
-    header .navbar ul li {
-        width: 100%;
-    }
+    
+    header #toggler:checked ~ .navbar{
+        display: initial;
+        
 
-    header .navbar ul li ul {
-        position: relative;
-        width: 100%;
-    }
-
-    header .navbar ul li ul li {
-        background: #eee;
-    }
-
-    header .navbar ul li ul li ul {
-        width: 100%;
-        left: 0;
-    }
-
+}
 }

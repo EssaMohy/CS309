@@ -10,6 +10,8 @@ import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import Checkout from "./components/checkout/Checkout";
 import Cart from "./Pages/Cart";
+import User from "./Pages/user/User";
+import SinglePro from "./Pages/SingleProduct/singlePro";
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
           <Route path="/signup" element={<Signup />} />
           <Route path="/Cheackout" element={<Checkout></Checkout>} />
           <Route path="/Cart" element={<Cart />} />
+          <Route path="/UserPage" element={<User />} />
+          <Route path="/SinglePro" element={<SinglePro />} />
         </Routes>
       </Router>
     </div>

@@ -24,11 +24,8 @@ function Navbar() {
         <a href="#" class="logoo">
           Fit Nutration
         </a>
-        <label>
-          {" "}
-          menu
-          <input type="checkbox" id="menu-bar" />
-        </label>
+        <input type="checkbox" name="" id="toggler"/>
+    <label for="toggler" class="fas fa-bars"></label>
 
         <nav class="navbar">
           <ul>
@@ -36,7 +33,7 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">store +</a>
+            <Link to="/Products">store +</Link>
               <ul>
                 <li>
                   <Link to="/Products">Shop</Link>
@@ -94,7 +91,9 @@ function Navbar() {
             </IconButton>
           </Link>
           <IconButton aria-label="cart">
-            <AccountCircleIcon sx={{ fontSize: 25 }} />
+            <Link to="/UserPage">
+            <AccountCircleIcon sx={{ fontSize: 25 ,color:"gray"}} />
+            </Link>
           </IconButton>
         </div>
       </header>
