@@ -1,0 +1,43 @@
+.newProduct {
+    flex: 4;
+  }
+  
+  .ProductForm {
+    margin-left: 550px;
+    margin-bottom: 40px;
+  }
+  
+  .ProductTitle{
+    font-weight: bolder;
+    font-size: 30px;
+    color: gold;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .ProductItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .ProductItem > label {
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .ProductItem > input {
+    padding: 10px;
+  }
+  .ProductButton {
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+  }
