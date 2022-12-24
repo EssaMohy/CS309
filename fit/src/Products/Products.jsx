@@ -1,36 +1,10 @@
 import react, { Fragment } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import { featuredProducts } from "../data";
+import "./Products.css";
 
 function Product() {
-  console.log(featuredProducts);
-  const listItems = featuredProducts.map((item) => (
-    <div class="box">
-      <span class="discount">{item.discount}</span>
-      <div class="image">
-        <img src={item.img} alt="" />
-        <div class="icons">
-          <a>
-            <FavoriteBorderIcon></FavoriteBorderIcon>
-          </a>
-          <a href="#" class="cart-btn">
-            add to cart
-          </a>
-          <a>
-            <SearchIcon></SearchIcon>
-          </a>
-        </div>
-      </div>
-      <div class="content">
-        <h3>{item.name}</h3>
-        <div class="price">
-          {item.price1} <span>{item.price2} </span>{" "}
-        </div>
-      </div>
-    </div>
-  ));
   return (
     <Fragment>
       {" "}
@@ -41,7 +15,91 @@ function Product() {
           Featured <span>products</span>{" "}
         </h1>
 
-        <div class="box-container">{listItems}</div>
+        <div class="box-container">
+          <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+              <img src={require("./images/protein/2.jpg")} alt="" />
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+
+                <a href="#" class="cart-btn">
+                  add to cart
+                </a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>product</h3>
+              <div class="price">
+                {" "}
+                LE 12.99 <span>LE 15.99</span>{" "}
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <span class="discount">-15%</span>
+            <div class="image">
+              <img src={require("./images/protein/1.jpg")} alt="" />
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+
+                <a href="#" class="cart-btn">
+                  add to cart
+                </a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>product</h3>
+              <div class="price">
+                {" "}
+                LE 12.99 <span>LE 15.99</span>{" "}
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+              <img src={require("./images/protein/3.jpg")} alt="" />
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+
+                <a href="#" class="cart-btn">
+                  add to cart
+                </a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>product</h3>
+              <div class="price">
+                {" "}
+                LE 12.99 <span>LE 15.99</span>{" "}
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </Fragment>
   );

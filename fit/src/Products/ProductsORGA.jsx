@@ -1,7 +1,7 @@
 import react, { Fragment } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Fotter/Footer";
+import "./Products.css";
 function ProductsORGA() {
   return (
     <Fragment>

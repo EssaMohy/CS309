@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import styled from "styled-components";
-import { mobile } from "../responsive";
+import { mobile } from "../../responsive";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { Link } from "react-router-dom";

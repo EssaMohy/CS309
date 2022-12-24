@@ -17,7 +17,6 @@
 
 body {
     min-height: 100vh;
-    background: url(./images/Hero.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -54,7 +53,7 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-    background: #333;
+    background: var(--orange);
     color: #fff;
 }
 
@@ -116,7 +115,7 @@ header label {
 .search-container form {
     position: relative;
     border: solid orange;
-    border-radius:0.8rem;
+    border-radius: 0.8rem;
 }
 
 .search-container form button {
@@ -134,14 +133,16 @@ header label {
 }
 
 
-@media(max-width:991px) {
+
+@media(max-width:788px) {
+
 
     header {
         padding: 20px;
-        
+
     }
 
-    header .fa-bars{
+    header .fa-bars {
         display: block;
     }
 
@@ -153,14 +154,38 @@ header label {
         background: #fff;
         border-top: 1px solid rgba(0, 0, 0, .1);
         display: none;
-        
-        
     }
 
-    
-    header #toggler:checked ~ .navbar{
+    .navbarc ul li {
+        width: 100%;
         display: initial;
-        
+    }
 
+    .navbar ul li ul {
+        position: relative;
+        width: 100%;
+        display: initial;
+    }
+
+    .navbar ul li ul li {
+        background: #eee;
+        display: initial;
+    }
+
+    .navbar ul li ul li ul {
+        width: 100%;
+        left: 0;
+    }
+
+    header #toggler:checked~.navbar {
+        display: initial;
+
+
+    }
 }
+
+@media(max-width:350px) {
+    .logoo {
+        display: none;
+    }
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import HomePage from "./Pages/Homepage";
+import HomePage from "./Pages/HomePage/Homepage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Products from "./Products/Products";
 import ProductsCHAll from "./Products/ProductsCHAll";
 import ProductsMuscleADD from "./Products/ProductsMuscleADD";
 import ProductsORGA from "./Products/ProductsORGA";
-import Login from "./Pages/Login";
-import Signup from "./Pages/Signup";
+import Login from "./Pages/SignIN/Login";
+import Signup from "./Pages/SignIN/Signup";
 import Checkout from "./components/checkout/Checkout";
-import Cart from "./Pages/Cart";
+import Cart from "./Pages/Cart/Cart";
 import User from "./Pages/user/User";
 import SinglePro from "./Pages/SingleProduct/singlePro";
 

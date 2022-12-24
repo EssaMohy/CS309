@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar/Navbar"
 import { Link } from "react-router-dom";
-
+import "./login.css";
 function Login() {
   return (
     <Fragment>

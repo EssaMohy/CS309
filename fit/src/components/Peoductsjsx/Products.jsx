@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { featuredProducts } from "../data";
+import { featuredProducts } from "../../data";
 import Product from "./Product";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";

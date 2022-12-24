@@ -6,6 +6,7 @@ import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { useSelector } from "react-redux";
+import "./nav.css";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -39,20 +40,6 @@ function Navbar() {
               <ul>
                 <li>
                   <Link to="/Products">Shop</Link>
-                </li>
-                <li>
-                  <a href="#">Catogories+</a>
-                  <ul>
-                    <li>
-                      <a href="#">Protien</a>
-                    </li>
-                    <li>
-                      <a href="#">Creatien</a>
-                    </li>
-                    <li>
-                      <a href="#">Weight Gainer & Carbs</a>
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <a href="#">shop by brand+ </a>
