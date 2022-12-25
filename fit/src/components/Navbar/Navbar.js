@@ -55,10 +55,10 @@ function Navbar() {
                     </li>
                   </ul>
                 </li> <li>
-                <a href="#">catogories </a>
+                <a href="#">catogories +</a>
                   <ul>
                     <li>
-                      <Link to="/Products3">creatine +</Link>
+                      <Link to="/Products3">creatine </Link>
                     </li>
                     <li>
                       <Link to="/Products2">protein</Link>
