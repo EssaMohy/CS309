@@ -1,11 +1,7 @@
-.newm{
-    width: 800px;
-    margin-left: 250px;
-    margin-bottom: 50px;
+.cont2{
+    display: flex;
 }
-.create{
-    margin-left: 250px;
-}
-.prod{
-    width: 50%;
+.Uprod{
+    margin-left: 400px;
+    margin-top: 70px;
 }
