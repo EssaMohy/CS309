@@ -11,11 +11,8 @@ function App() {
       <Topbar />
       </div>
       <div className='cont2'>
-        <Newproduct /><Dproduct />
+        <Newproduct /> <Uproduct /><Dproduct />
         </div>
-      <div className='Uprod'>
-      <Uproduct />
-      </div>
     </div>
   );
 }

@@ -3,7 +3,7 @@ function product() {
   return (
     <div className="productp">
        <form className="ProductForm">
-      <h1 className="ProductTitle">UPDate Product</h1>
+      <h1 className="ProductTitle">Update Product</h1>
         <div className="ProductItem">
           <label>Image</label>
           <input type="file" id="file" />

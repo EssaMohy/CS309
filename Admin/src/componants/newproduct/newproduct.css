@@ -10,7 +10,7 @@
   .ProductTitle{
     font-weight: bolder;
     font-size: 30px;
-    color: gold;
+    color:rgb(255, 145, 0);
     cursor: pointer;
     margin-left: 30px;
   }
@@ -35,9 +35,12 @@
     padding: 7px 10px;
     border: none;
     border-radius: 10px;
-    background-color: darkblue;
+    background-color: rgb(62, 62, 66);
     color: white;
     font-weight: 600;
     cursor: pointer;
     text-align: center;
+  }
+  .ProductButton:hover{
+ background:rgb(255, 145, 0);
   }

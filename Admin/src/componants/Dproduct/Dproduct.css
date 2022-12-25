@@ -3,34 +3,36 @@
     padding: 7px 10px;
     border: none;
     border-radius: 10px;
-    background-color: red;
+    background-color:rgb(255, 145, 0);
     color: white;
     font-weight: 600;
     cursor: pointer;
     text-align: center;
+}
+.ProductButto:hover{
+background: red;
 }
 .ProductButtot{
     margin-top: 10px;
-    padding: 7px 10px;
+    padding: auto;
     border: none;
     border-radius: 10px;
-    background-color: blue;
+    background-color: rgb(79, 79, 86);
     color: white;
     font-weight: 600;
     cursor: pointer;
-    text-align: center;
+    text-align: auto;
 }
 .table {
-    width: 450px;
+    width: auto;
     height: 300px;
-    text-align: center;
+    text-align: auto;
   }
   .listcon{
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 20px;
     padding: 20px;
-    width: 450px;
-    height: 400px;
+    width: 300px;
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
