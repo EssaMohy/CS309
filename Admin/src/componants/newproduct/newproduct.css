@@ -1,10 +1,10 @@
-.newProduct {
-    flex: 4;
-  }
-  
   .ProductForm {
-    margin-left: 550px;
-    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   .ProductTitle{
@@ -12,7 +12,7 @@
     font-size: 30px;
     color: gold;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .ProductItem {
     width: 250px;
