@@ -1,17 +1,16 @@
 import React from "react";
-// import HomePage from "./Pages/HomePage/Homepage";
+import HomePage from "./Pages/HomePage/Homepage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Products from "./Products/Products";
-// import ProductsCHAll from "./Products/ProductsCHAll";
-// import ProductsMuscleADD from "./Products/ProductsMuscleADD";
-// import ProductsORGA from "./Products/ProductsORGA";
-// import Login from "./Pages/SignIN/Login";
-// import Signup from "./Pages/SignIN/Signup";
-// import Checkout from "./components/checkout/Checkout";
-// import Cart from "./Pages/Cart/Cart";
-// import User from "./Pages/user/User";
-// import SinglePro from "./Pages/SingleProduct/singlePro";
-import Aadmin from "./Pages/ADMIN/Admin"; // اعمل  كومنت هنا عادي واعمل كومنت للروت بتاعها اللي تحت بردو وشيل بقيت الكومنتات  عشان تشغل الكود لليوزر
+import Products from "./Products/Products";
+import ProductsCHAll from "./Products/ProductsCHAll";
+import ProductsMuscleADD from "./Products/ProductsMuscleADD";
+import ProductsORGA from "./Products/ProductsORGA";
+import Login from "./Pages/SignIN/Login";
+import Signup from "./Pages/SignIN/Signup";
+import Checkout from "./components/checkout/Checkout";
+import Cart from "./Pages/Cart/Cart";
+import User from "./Pages/user/User";
+import SinglePro from "./Pages/SingleProduct/singlePro";
 // في طريقه ممكن تتاخد من بره زي كده بس لازم simlink
 // import app from "../../Admin/src/App"
 
@@ -21,9 +20,9 @@ const App = () => {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Aadmin />} />   
-          
-          {/* <Route path="/" element={<HomePage />} />
+
+
+          <Route path="/" element={<HomePage />} />
           <Route path="/Products" element={<Products />} />
           <Route path="/Products1" element={<ProductsCHAll />} />
           <Route path="/Products2" element={<ProductsMuscleADD />} />
@@ -33,7 +32,7 @@ const App = () => {
           <Route path="/Cheackout" element={<Checkout></Checkout>} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="/UserPage" element={<User />} />
-          <Route path="/SinglePro" element={<SinglePro />} /> */} 
+          <Route path="/SinglePro" element={<SinglePro />} />
         </Routes>
       </Router>
 
