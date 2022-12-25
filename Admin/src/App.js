@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
 import Topbar from './componants/topbar/topbar';
-import Newm from './componants/newM/newM';
-import Newproduct from './newproduct/newproduct';
-import Product from './componants/product/product';
-
+import Newproduct from './componants/newproduct/newproduct';
+import Dproduct from './componants/Dproduct/Dproduct';
+import Uproduct from './componants/Uproduct/Uproduct'
 function App() {
   return (
     <div className="container">
+      <div className='top'>
       <Topbar />
-      <div className='newm'>
-      <Newm />
       </div>
-      <div className='craete'>
-      <Newproduct />
-      </div>
-      <div className='prod'>
-        <Product />
+      <div className='cont2'>
+        <Newproduct /><Dproduct />
+        </div>
+      <div className='Uprod'>
+      <Uproduct />
       </div>
     </div>
   );
