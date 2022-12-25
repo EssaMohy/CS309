@@ -54,6 +54,19 @@ function Navbar() {
                       <Link to="/Products1">Challnger Nutration</Link>
                     </li>
                   </ul>
+                </li> <li>
+                <a href="#">catogories +</a>
+                  <ul>
+                    <li>
+                      <Link to="/Products3">creatine </Link>
+                    </li>
+                    <li>
+                      <Link to="/Products2">protein</Link>
+                    </li>
+                    <li>
+                      <Link to="/Products1">weight gainer & Carbs</Link>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </li>

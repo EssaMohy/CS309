@@ -8,14 +8,10 @@ import Product from "./componants/product/product";
 function App() {
   return (
     <div className="container">
-      <Topbar />
-      <div className="newm">
-        <Newm />
+      <div className="top">
+        <Topbar />
       </div>
-
-      <div className="prod">
-        <Product />
-      </div>
+      <div className="cont2"></div>
     </div>
   );
 }

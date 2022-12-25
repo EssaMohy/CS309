@@ -1,9 +1,9 @@
-import React from 'react';
-import "./newproduct.css"
-function newproduct() {
+import React from "react";
+function product() {
   return (
-      <form className="ProductForm">
-      <h1 className="ProductTitle">Add Products</h1>
+    <div className="productp">
+       <form className="ProductForm">
+      <h1 className="ProductTitle">Update Product</h1>
         <div className="ProductItem">
           <label>Image</label>
           <input type="file" id="file" />
@@ -20,11 +20,10 @@ function newproduct() {
           <label>discribtion</label>
           <input type="text" className='dis' placeholder="it's a good item" />
         </div>
-        <button className="ProductButton">Create</button>
+        <button className="ProductButton">Save</button>
       </form>
-    
+    </div>
   );
 }
 
-export default newproduct;
-
+export default product;
