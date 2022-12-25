@@ -1,21 +1,19 @@
-import React from 'react';
-import './App.css';
-import Topbar from './componants/topbar/topbar';
-import Newm from './componants/newM/newM';
-import Newproduct from './newproduct/newproduct';
-import Product from './componants/product/product';
+import React from "react";
+import "./App.css";
+import Topbar from "./componants/topbar/topbar";
+import Newm from "./componants/newM/newM";
+
+import Product from "./componants/product/product";
 
 function App() {
   return (
     <div className="container">
       <Topbar />
-      <div className='newm'>
-      <Newm />
+      <div className="newm">
+        <Newm />
       </div>
-      <div className='craete'>
-      <Newproduct />
-      </div>
-      <div className='prod'>
+
+      <div className="prod">
         <Product />
       </div>
     </div>
