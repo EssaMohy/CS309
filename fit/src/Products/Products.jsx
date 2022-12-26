@@ -17,7 +17,7 @@ function Product() {
 
         <div class="box-container">
           <div class="box">
-            <span class="discount">-10%</span>
+        
             <div class="image">
               <img src={require("./images/protein/2.jpg")} alt="" />
               <div class="stars">
@@ -39,13 +39,13 @@ function Product() {
               <h3>product</h3>
               <div class="price">
                 {" "}
-                LE 12.99 <span>LE 15.99</span>{" "}
+                LE 12.99 {" "}
               </div>
             </div>
           </div>
 
           <div class="box">
-            <span class="discount">-15%</span>
+           
             <div class="image">
               <img src={require("./images/protein/1.jpg")} alt="" />
               <div class="stars">
@@ -67,13 +67,13 @@ function Product() {
               <h3>product</h3>
               <div class="price">
                 {" "}
-                LE 12.99 <span>LE 15.99</span>{" "}
+                LE 12.99 {" "}
               </div>
             </div>
           </div>
 
           <div class="box">
-            <span class="discount">-5%</span>
+           
             <div class="image">
               <img src={require("./images/protein/3.jpg")} alt="" />
               <div class="stars">
@@ -95,7 +95,7 @@ function Product() {
               <h3>product</h3>
               <div class="price">
                 {" "}
-                LE 12.99 <span>LE 15.99</span>{" "}
+                LE 12.99 {" "}
               </div>
             </div>
           </div>
