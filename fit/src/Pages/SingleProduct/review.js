@@ -41,7 +41,7 @@ function Rev() {
           <div class="box-container">
 
             <div class="box">{/* NUMBER OF THE STARS OF THE USER */}
-              <div class="stars" style={{color:"gold"}}>
+              <div class="stars" style={{ color: "gold" }}>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -57,7 +57,85 @@ function Rev() {
                 </div>
               </div>
               <span class="fas fa-quote-right"></span>
-            </div></div>
+            </div>
+
+            <div class="box">{/* NUMBER OF THE STARS OF THE USER */}
+              <div class="stars" style={{ color: "gold" }}>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>{/* THE REVIEW OF THE USER */}
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam praesentium enim maiores? Ad repellat voluptates alias facere repudiandae dolor accusamus enim ut odit, aliquam nesciunt eaque nulla dignissimos.</p>
+              <div class="user">
+                {/*THE PROFILE PAGE PHOTO OF THE USER */} <img src="images/pic-1.png" alt="" />
+                <div class="user-info">
+                  {/* THE NAME OF THE USER*/} <h3>john deo</h3>
+                  <span>customer</span>
+                </div>
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">{/* NUMBER OF THE STARS OF THE USER */}
+              <div class="stars" style={{ color: "gold" }}>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>{/* THE REVIEW OF THE USER */}
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam praesentium enim maiores? Ad repellat voluptates alias facere repudiandae dolor accusamus enim ut odit, aliquam nesciunt eaque nulla dignissimos.</p>
+              <div class="user">
+                {/*THE PROFILE PAGE PHOTO OF THE USER */} <img src="images/pic-1.png" alt="" />
+                <div class="user-info">
+                  {/* THE NAME OF THE USER*/} <h3>john deo</h3>
+                  <span>customer</span>
+                </div>
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">{/* NUMBER OF THE STARS OF THE USER */}
+              <div class="stars" style={{ color: "gold" }}>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>{/* THE REVIEW OF THE USER */}
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam praesentium enim maiores? Ad repellat voluptates alias facere repudiandae dolor accusamus enim ut odit, aliquam nesciunt eaque nulla dignissimos.</p>
+              <div class="user">
+                {/*THE PROFILE PAGE PHOTO OF THE USER */} <img src="images/pic-1.png" alt="" />
+                <div class="user-info">
+                  {/* THE NAME OF THE USER*/} <h3>john deo</h3>
+                  <span>customer</span>
+                </div>
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">{/* NUMBER OF THE STARS OF THE USER */}
+              <div class="stars" style={{ color: "gold" }}>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>{/* THE REVIEW OF THE USER */}
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores laboriosam praesentium enim maiores? Ad repellat voluptates alias facere repudiandae dolor accusamus enim ut odit, aliquam nesciunt eaque nulla dignissimos.</p>
+              <div class="user">
+                {/*THE PROFILE PAGE PHOTO OF THE USER */} <img src="images/pic-1.png" alt="" />
+                <div class="user-info">
+                  {/* THE NAME OF THE USER*/} <h3>john deo</h3>
+                  <span>customer</span>
+                </div>
+              </div>
+              <span class="fas fa-quote-right"></span>
+            </div>
+
+          </div>
         </section>
       </div>
     </div>
