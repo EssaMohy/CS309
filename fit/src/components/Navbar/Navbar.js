@@ -19,7 +19,6 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 
 function Navbar() {
   const quantity = useSelector((state) => state.cart.quantity);
-  console.log(quantity);
   return (
     <Fragment>
       {" "}
@@ -45,7 +44,9 @@ function Navbar() {
                   <a href="#">shop by brand+ </a>
                   <ul>
                     <li>
-                      <Link to="/Products3">Organic Nation</Link>
+                      <Link to="/products/Organic%20Nation">
+                        Organic Nation
+                      </Link>
                     </li>
                     <li>
                       <Link to="/Products2">Muscle add</Link>
@@ -54,17 +55,20 @@ function Navbar() {
                       <Link to="/Products1">Challnger Nutration</Link>
                     </li>
                   </ul>
-                </li> <li>
-                <a href="#">catogories +</a>
+                </li>{" "}
+                <li>
+                  <a href="#">catogories +</a>
                   <ul>
                     <li>
-                      <Link to="/Products3">creatine </Link>
+                      <Link to="/products/Creatine">creatine </Link>
                     </li>
                     <li>
-                      <Link to="/Products2">protein</Link>
+                      <Link to="/products/Protein">protein</Link>
                     </li>
                     <li>
-                      <Link to="/Products1">weight gainer & Carbs</Link>
+                      <Link to="/products/Weight%20gainer">
+                        weight gainer & Carbs
+                      </Link>
                     </li>
                   </ul>
                 </li>
