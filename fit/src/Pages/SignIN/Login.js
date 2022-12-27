@@ -19,7 +19,7 @@ function Login() {
           <form class="login-form">
             <input type="text" placeholder="username" />
             <input type="password" placeholder="password" />
-            <button>login</button>
+            <button class="btn">login</button>
             <p class="message">Not registered? </p>{" "}
             <Link to="/signup">Sign Up</Link>
           </form>
