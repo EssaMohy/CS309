@@ -35,10 +35,7 @@ export default function User() {
             </div>
 
             <span className="userShowTitle">Contact Details</span>
-            <div className="userShowInfo">
-              <PhoneAndroidIcon className="userShowIcon" />
-              <span className="userShowInfoTitle">+1 123 456 67</span>
-            </div>
+          
             <div className="userShowInfo">
               <MailOutlineIcon className="userShowIcon" />
               <span className="userShowInfoTitle">exapmle@gmail.com</span>
@@ -54,7 +51,7 @@ export default function User() {
           <form className="userUpdateForm">
             <div className="userUpdateLeft">
               <div className="userUpdateItem">
-                <label>Username</label>
+                <label>First Name</label>
                 <input
                   type="text"
                   placeholder="User Name"
@@ -62,7 +59,7 @@ export default function User() {
                 />
               </div>
               <div className="userUpdateItem">
-                <label>Full Name</label>
+                <label>Last Name</label>
                 <input
                   type="text"
                   placeholder="User Name"
@@ -77,14 +74,7 @@ export default function User() {
                   className="userUpdateInput"
                 />
               </div>
-              <div className="userUpdateItem">
-                <label>Phone</label>
-                <input
-                  type="text"
-                  placeholder="+1 123 456 67"
-                  className="userUpdateInput"
-                />
-              </div>
+      
               <div className="userUpdateItem">
                 <label>Address</label>
                 <input
