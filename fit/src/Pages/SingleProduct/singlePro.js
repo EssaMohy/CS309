@@ -34,11 +34,8 @@ function SinglePro() {
                     </div>
                 </div>
             </div>
-            <Rev /> 
-            <footer>
-                   <div class="sosowow"><Container> <h2>feedback</h2></Container>
-                </div>
-</footer>
+            <Rev />
+
         </body>
         </Fragment>
     );
