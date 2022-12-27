@@ -1,5 +1,12 @@
 
 @media all and (min-width: 100px) {
+    .sosowow{
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        padding-bottom: 150px;
+        margin-bottom: 500px;
+        border: solid black;
+    }
     .pro_head{padding-top: 60px;}
 
     .pro_detail{
