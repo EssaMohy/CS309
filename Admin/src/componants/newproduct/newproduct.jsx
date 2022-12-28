@@ -1,9 +1,13 @@
 import React from 'react';
+import Topbar from '../topbar/topbar';
 import "./newproduct.css"
+import { Fragment } from "react";
+
 function Newproduct() {
-  return (
+  return ( <Fragment>
+    <Topbar></Topbar>
       <form className="ProductForm">
-      <h1 className="ProductTitle">Add Products</h1>
+      <h1 className="ProductTitle">Add Product</h1>
         <div className="ProductItem">
           <label>Image</label>
           <input type="file" id="file" />
@@ -22,7 +26,7 @@ function Newproduct() {
         </div>
         <button className="ProductButton">Create</button>
       </form>
-    
+      </Fragment>
   );
 }
 

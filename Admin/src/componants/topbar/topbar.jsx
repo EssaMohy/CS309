@@ -1,14 +1,22 @@
 import React from 'react';
 import './topbar.css';
-export default function topbar() {
+import { Fragment } from "react";
+import { Link } from "react-router-dom";
+export default function Topbar() {
   return (<header>
      <a href="#" class="logoo">
           Fit Nutration
         </a>
     <nav class="navbar">
       <ul>
+      <li>
+          <Link to="/">Home</Link>
+        </li>
         <li>
-          <a href="#">Home </a>
+          <Link to="/pro">All Products</Link>
+        </li>
+        <li>
+          <Link to="/new">Add New Product </Link>
         </li>
       </ul>
     </nav>
