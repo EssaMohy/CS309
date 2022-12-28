@@ -9,7 +9,7 @@ function Hhome() {
                 <Topbar></Topbar>
             </header>
 
-            <section class="products" id="products">
+            <section class="nono" >
 
                 <h1 class="heading"> Hello Mr Admin <span>This is your Dashboard</span> </h1>
 
