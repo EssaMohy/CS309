@@ -1,6 +1,6 @@
 import React from 'react';
 import "./newproduct.css"
-function newproduct() {
+function Newproduct() {
   return (
       <form className="ProductForm">
       <h1 className="ProductTitle">Add Products</h1>
@@ -26,5 +26,5 @@ function newproduct() {
   );
 }
 
-export default newproduct;
+export default Newproduct;
 

@@ -1,5 +1,5 @@
 import React from "react";
-function product() {
+function Product() {
   return (
     <div className="productp">
        <form className="ProductForm">
@@ -26,4 +26,4 @@ function product() {
   );
 }
 
-export default product;
+export default Product;

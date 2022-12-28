@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 import Topbar from "./componants/topbar/topbar";
+import Newproduct from "./componants/newproduct/newproduct"
+import Dproduct from "./componants/Dproduct/Dproduct"
+import Product from "./componants/Uproduct/Uproduct";
 
 function App() {
   return (
@@ -9,6 +12,7 @@ function App() {
         <Topbar />
       </div>
       <div className="cont2"></div>
+      <Newproduct/><Product/><Dproduct/> 
     </div>
   );
 }
