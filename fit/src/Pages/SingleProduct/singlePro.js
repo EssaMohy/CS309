@@ -43,7 +43,7 @@ function SinglePro() {
           <div class="pro_dic">
             <div class="pro_head">
               <h3 class="pro_heading">{product.title}</h3>
-              <p class="pro_price">{product.price} EGP</p>
+              <p class="pro_price">Price is {product.price} EGP</p>
             </div>
 
             <div class="pro_size"></div>
