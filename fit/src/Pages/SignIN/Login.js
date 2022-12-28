@@ -21,7 +21,7 @@ function Login() {
             <input type="password" placeholder="password" />
             <button class="btn">login</button>
             <p class="message">Not registered? </p>{" "}
-            <Link to="/signup">Sign Up</Link>
+            <Link to="/signup" style={{color:"#e86a43"}}>Sign Up</Link>
           </form>
         </div>
       </div>
