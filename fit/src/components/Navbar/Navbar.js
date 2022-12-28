@@ -49,10 +49,12 @@ function Navbar() {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/Products2">Muscle add</Link>
+                      <Link to="/products/Muscle%20Add">Muscle add</Link>
                     </li>
                     <li>
-                      <Link to="/Products1">Challnger Nutration</Link>
+                      <Link to="/products/Challenger%20Nutrition">
+                        Challenger Nutrition
+                      </Link>
                     </li>
                   </ul>
                 </li>{" "}
@@ -63,10 +65,10 @@ function Navbar() {
                       <Link to="/products/Creatine">creatine </Link>
                     </li>
                     <li>
-                      <Link to="/products/Protein">protein</Link>
+                      <Link to="/products/Protien">protein</Link>
                     </li>
                     <li>
-                      <Link to="/products/Weight%20gainer">
+                      <Link to="/products/Weight%20Gainer">
                         weight gainer & Carbs
                       </Link>
                     </li>
@@ -82,10 +84,12 @@ function Navbar() {
         </nav>
         <div class="search-container">
           <form action="">
-            <input type="text" placeholder="Search..." name="search" />
-            <button type="submit">
-              <i class="fa fa-search"></i>
-            </button>
+            <Link to="/AllProducts">
+              <input type="text" placeholder="Search..." name="search" />
+              <button type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </Link>
           </form>
         </div>
         <div>
