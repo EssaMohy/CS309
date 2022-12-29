@@ -5,8 +5,8 @@ import Topbar from "./componants/topbar/topbar";
 import Newproduct from "./componants/newproduct/newproduct";
 import Dproduct from "./componants/Dproduct/Dproduct";
 import Product from "./componants/Uproduct/Uproduct";
-import Pro from "./Pages/proList";
-import Hhome from "./Pages/Home";
+import Pro from "./pages/proList";
+import Hhome from "./pages/Home";
 
 const App = () => {
   return (
