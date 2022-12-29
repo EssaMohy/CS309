@@ -20,7 +20,7 @@ export default function User() {
   const { isFetching, error } = useSelector((state) => state.user);
   const handleClick = (e) => {
     e.preventDefault();
-    update(dispatch, { first_name, last_name, email }, user._id);
+    update(dispatch, { first_name, last_name, email });
   };
   return (
     <div className="user">
