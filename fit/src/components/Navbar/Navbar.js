@@ -35,7 +35,7 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-            <a href="#">Store+</a>
+            <Link to="/AllProducts">Store +</Link>
               <ul>
                 <li>
                   <Link to="/AllProducts">Shop</Link>

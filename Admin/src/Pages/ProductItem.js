@@ -9,9 +9,9 @@ const ProductItem = ({ item }) => {
       <div class="image">
         <img src={item.img} alt="" />
         <div class="icons">
-          <a href="#" class="cart-btn">
+          <Link to="/edit" class="cart-btn">
             Edit
-          </a>
+          </Link>
           <a href="#" class="cart-btn">
             Delete
           </a>

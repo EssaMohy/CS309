@@ -16,11 +16,9 @@ function HomePage() {
           <h3>High Quality Supplemets</h3>
           <span> natural & Pure </span>
           <p>flash sale up to 40% today.</p>
-          <Link to="/Products">
-            <a href="#" class="btn">
-              shop now
-            </a>
-          </Link>
+
+          <Link to="/AllProducts" class="btn">Shop now</Link>
+
         </div>
       </section>
       <section class="about" id="about">
@@ -43,14 +41,14 @@ function HomePage() {
           <div class="content">
             <h3>why choose us?</h3>
             <p>
-            Without needing to search a lot and see what you want 
-            and where it is available and is it available in your country or not,
-             
+              Without needing to search a lot and see what you want
+              and where it is available and is it available in your country or not,
+
             </p>
             <p>
-            so that is why we have provided you with the best 3 Egyptian companies 
-            for nutritional supplements in one place, and not only that, 
-            we also provided u a section of categories of what we have so the search become easy for u
+              so that is why we have provided you with the best 3 Egyptian companies
+              for nutritional supplements in one place, and not only that,
+              we also provided u a section of categories of what we have so the search become easy for u
             </p>
           </div>
         </div>
