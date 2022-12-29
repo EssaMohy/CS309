@@ -1,13 +1,11 @@
 import { Fragment } from "react";
 import Navbar from "../components/Navbar/Navbar";
-import Products from "../components/Peoducts/Products";
+import Search from "../components/Peoducts/Search";
 import Footer from "../components/Fotter/Footer";
-import "./Products.css";
+
 import { useLocation } from "react-router-dom";
 
-const ProductList = () => {
-  const location = useLocation();
-  const cat = location.pathname.split("/")[2];
+const SearchList = () => {
   return (
     <Fragment>
       <header>
@@ -24,7 +22,7 @@ const ProductList = () => {
           latest <span>products</span>{" "}
         </h1>
 
-        <Products cat={cat} />
+        <Search />
       </section>
 
       <Footer />
@@ -32,4 +30,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default SearchList;

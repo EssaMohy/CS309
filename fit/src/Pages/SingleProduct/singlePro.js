@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { publicRequest } from "../../requestMethods";
 import { addProduct } from "../../redux/cartRedux";
 import { useDispatch } from "react-redux";
-import Rev from "./review"
+import Rev from "./review";
 
 function SinglePro() {
   const location = useLocation();
@@ -21,7 +21,7 @@ function SinglePro() {
       try {
         const res = await publicRequest.get("products/find/" + id);
         setProduct(res.data);
-      } catch { }
+      } catch {}
     };
     getProduct();
   }, [id]);
@@ -42,8 +42,8 @@ function SinglePro() {
           </div>
           <div class="pro_dic">
             <div class="pro_head">
-              <h3 class="pro_heading">{product.title}</h3>
-              <p class="pro_price">Price is {product.price} EGP</p>
+              <h3 class="pro_heading">{product.name}</h3>
+              <p class="pro_price">{product.price} EGP</p>
             </div>
 
             <div class="pro_size"></div>
@@ -57,7 +57,6 @@ function SinglePro() {
           </div>
         </div>
         <Rev />
-
       </body>
     </Fragment>
   );

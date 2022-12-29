@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Product from "../../Products/Products";
+import Products from "../../components/Peoducts/Products";
 import { Link } from "react-router-dom";
 import Categories from "../../components/Categories/Categories";
 import "./Home.css";
@@ -92,8 +92,15 @@ function HomePage() {
           </div>
         </div>
       </section>
-      <Product></Product>{" "}
-      <Link to="/products" class="btn" style={{ marginLeft: "41%" }}>
+      <h1 class="heading">
+        {" "}
+        <span> Featured </span> Products{" "}
+      </h1>
+      <section class="products">
+        <Products cat={"Creatine"}></Products>
+      </section>
+
+      <Link to="/AllProducts" class="btn" style={{ marginLeft: "41%" }}>
         Show more Products
       </Link>
       <section class="contact" id="contact">

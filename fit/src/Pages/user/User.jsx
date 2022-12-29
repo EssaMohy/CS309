@@ -6,8 +6,22 @@ import PublishIcon from "@mui/icons-material/Publish";
 import { Link } from "react-router-dom";
 import "./user.css";
 import Navbar from "../../components/Navbar/Navbar";
+import { useSelector } from "react-redux";
+import { update } from "../../redux/apiCalls";
+import { useState } from "react";
+import { useDispatch } from "react-redux";
 
 export default function User() {
+  const user = useSelector((state) => state.user.currentUser);
+  const [first_name, setFirst_name] = useState("");
+  const [last_name, setLast_name] = useState("");
+  const [email, setEmail] = useState("");
+  const dispatch = useDispatch();
+  const { isFetching, error } = useSelector((state) => state.user);
+  const handleClick = (e) => {
+    e.preventDefault();
+    update(dispatch, { first_name, last_name, email }, user._id);
+  };
   return (
     <div className="user">
       <Navbar />
@@ -23,22 +37,25 @@ export default function User() {
               className="userShowImg"
             />
             <div className="userShowTopTitle">
-              <span className="userShowUsername">User name</span>
-              <span className="userShowUserTitle">Software Engineer</span>
+              <span className="userShowUsername">
+                {user.first_name} {user.last_name}
+              </span>
             </div>
           </div>
           <div className="userShowBottom">
             <span className="userShowTitle">Account Details</span>
             <div className="userShowInfo">
               <PermIdentityIcon className="userShowIcon" />
-              <span className="userShowInfoTitle">User name</span>
+              <span className="userShowInfoTitle">
+                {user.first_name} {user.last_name}
+              </span>
             </div>
 
             <span className="userShowTitle">Contact Details</span>
-          
+
             <div className="userShowInfo">
               <MailOutlineIcon className="userShowIcon" />
-              <span className="userShowInfoTitle">exapmle@gmail.com</span>
+              <span className="userShowInfoTitle">{user.email}</span>
             </div>
             <div className="userShowInfo">
               <LocationSearchingIcon className="userShowIcon" />
@@ -56,6 +73,7 @@ export default function User() {
                   type="text"
                   placeholder="User Name"
                   className="userUpdateInput"
+                  onChange={(e) => setFirst_name(e.target.value)}
                 />
               </div>
               <div className="userUpdateItem">
@@ -64,6 +82,7 @@ export default function User() {
                   type="text"
                   placeholder="User Name"
                   className="userUpdateInput"
+                  onChange={(e) => setLast_name(e.target.value)}
                 />
               </div>
               <div className="userUpdateItem">
@@ -72,9 +91,10 @@ export default function User() {
                   type="text"
                   placeholder="example@gmail.com"
                   className="userUpdateInput"
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
-      
+
               <div className="userUpdateItem">
                 <label>Address</label>
                 <input
@@ -99,6 +119,7 @@ export default function User() {
               <button
                 className="btn "
                 style={{ marginRight: "35px", marginBottom: "110px" }}
+                onClick={handleClick}
               >
                 Update{" "}
               </button>
