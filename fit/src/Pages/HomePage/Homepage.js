@@ -43,15 +43,14 @@ function HomePage() {
           <div class="content">
             <h3>why choose us?</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-              cumque sit nemo pariatur corporis perspiciatis aspernatur a ullam
-              repudiandae autem asperiores quibusdam omnis commodi alias
-              repellat illum, unde optio temporibus.
+            Without needing to search a lot and see what you want 
+            and where it is available and is it available in your country or not,
+             
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusantium ea est commodi incidunt magni quia molestias
-              perspiciatis, unde repudiandae quidem.
+            so that is why we have provided you with the best 3 Egyptian companies 
+            for nutritional supplements in one place, and not only that, 
+            we also provided u a section of categories of what we have so the search become easy for u
             </p>
           </div>
         </div>

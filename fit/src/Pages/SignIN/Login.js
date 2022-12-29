@@ -48,7 +48,9 @@ function Login() {
             </button>
             {error && <Error>Something went wrong...</Error>}
             <p class="message">Not registered? </p>{" "}
-            <Link to="/signup">Sign Up</Link>
+            <Link to="/signup" style={{ color: "#e86a43" }}>
+              Sign Up
+            </Link>
           </form>
         </div>
       </div>

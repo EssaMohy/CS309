@@ -59,7 +59,7 @@ function Navbar() {
                   </ul>
                 </li>{" "}
                 <li>
-                  <a href="#">catogories +</a>
+                  <a href="#">categories+</a>
                   <ul>
                     <li>
                       <Link to="/products/Creatine">creatine </Link>

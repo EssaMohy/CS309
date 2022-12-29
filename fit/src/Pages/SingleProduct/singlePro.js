@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { publicRequest } from "../../requestMethods";
 import { addProduct } from "../../redux/cartRedux";
 import { useDispatch } from "react-redux";
+import Rev from "./review";
 
 function SinglePro() {
   const location = useLocation();
@@ -44,6 +45,7 @@ function SinglePro() {
               <h3 class="pro_heading">{product.name}</h3>
               <p class="pro_price">{product.price} EGP</p>
             </div>
+
             <div class="pro_size"></div>
             <p class="btn" style={{ width: "400px" }} onClick={handleClick}>
               ADD TO CART
@@ -54,6 +56,7 @@ function SinglePro() {
             </div>
           </div>
         </div>
+        <Rev />
       </body>
     </Fragment>
   );
