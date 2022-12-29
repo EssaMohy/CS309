@@ -15,6 +15,7 @@ import SinglePro from "./Pages/SingleProduct/singlePro";
 import ProductList from "./Products/ProductList";
 import { useSelector } from "react-redux";
 import AllProducts from "./Products/AllProducts";
+import SearchList from "./Pages/SearchList.jsx";
 
 const App = () => {
   const user = useSelector((state) => state.user.currentUser);
@@ -24,6 +25,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/products/:category" element={<ProductList />} />
+          <Route path="/products/search" element={<SearchList />} />
           <Route path="/AllProducts" element={<AllProducts />} />
           <Route path="/product/:id" element={<SinglePro />} />
           <Route
@@ -34,7 +36,10 @@ const App = () => {
             path="/signup"
             element={user ? <Navigate to="/" /> : <Signup />}
           />
-          <Route path="/Cheackout" element={<Checkout></Checkout>} />
+          <Route
+            path="/Cheackout"
+            element={user ? <Checkout></Checkout> : <Navigate to="/login" />}
+          />
           <Route path="/Cart" element={<Cart />} />
           <Route
             path="/UserPage"
