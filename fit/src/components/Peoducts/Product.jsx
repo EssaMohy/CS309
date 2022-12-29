@@ -5,15 +5,12 @@ const Product = ({ item }) => {
       <div class="image">
         <img src={item.img} alt="" />
         <div class="icons">
-          <Link to={"/Cart"}>
-            <a href="#" class="fas fa-shopping-cart"></a>
-          </Link>
-          <a href="#" class="cart-btn">
-            add to cart
-          </a>
+          <Link to={"/Cart"} class="fas fa-shopping-cart">
 
-          <Link to={`/product/${item._id}`}>
-            <a href="#" class="fas fa-eye"></a>
+          </Link>
+
+          <Link to={`/product/${item._id}`} class="fas fa-eye">
+
           </Link>
         </div>
       </div>
