@@ -35,10 +35,10 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Products">store +</Link>
+            <a href="#">Store+</a>
               <ul>
                 <li>
-                  <Link to="/Products">Shop</Link>
+                  <Link to="/AllProducts">Shop</Link>
                 </li>
                 <li>
                   <a href="#">shop by brand+ </a>

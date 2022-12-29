@@ -118,7 +118,6 @@ function HomePage() {
           <div class="box">
             <h3>quick links</h3>
             <Link to="/">Home</Link>
-            <Link to="/Products">Store</Link>
           </div>
 
           <div class="box">
