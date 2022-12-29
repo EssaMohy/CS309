@@ -157,7 +157,6 @@ function Cart() {
           </Link>
           <TopTexts>
             <TopText>Shopping Bag({cart.quantity})</TopText>
-            <TopText>Your Wishlist (0)</TopText>
           </TopTexts>
           <Link to="/Cheackout">
             <TopButton>CHECKOUT NOW</TopButton>
