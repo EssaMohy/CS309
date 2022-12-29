@@ -82,16 +82,16 @@ function Navbar() {
             </li>
           </ul>
         </nav>
-        <div class="search-container">
-          <form action="">
-            <Link to="/AllProducts">
-              <input type="text" placeholder="Search..." name="search" />
+        <Link to="/products/search">
+          <div class="search-container">
+            <form action="">
+              <input type="text" placeholder="Search..." />
               <button type="submit">
                 <i class="fa fa-search"></i>
               </button>
-            </Link>
-          </form>
-        </div>
+            </form>
+          </div>
+        </Link>
         <div>
           <Link to="/Cart">
             <IconButton aria-label="cart">

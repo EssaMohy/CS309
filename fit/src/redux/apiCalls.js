@@ -29,11 +29,11 @@ export const register = async (dispatch, user) => {
     dispatch(registerFailure());
   }
 };
-export const update = async (dispatch, user) => {
+export const update = async (id, user, dispatch) => {
   dispatch(updateStart());
   try {
-    const res = await userRequest.put("/auth/users", user);
-    dispatch(updateSuccess(res.data));
+    // update
+    dispatch(updateSuccess({ id, user }));
   } catch (err) {
     dispatch(updateFailure());
   }
